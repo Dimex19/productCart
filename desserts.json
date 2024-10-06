@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Waffle with Berries",
+      "price": 6.50,
+      "image": "waffle.jpg"
+    },
+    {
+      "name": "Vanilla Bean Crème Brûlée",
+      "price": 7.00,
+      "image": "creme-brulee.jpg"
+    },
+    {
+      "name": "Macaron Mix of Five",
+      "price": 8.00,
+      "image": "macaron.jpg"
+    },
+    {
+      "name": "Classic Tiramisu",
+      "price": 5.50,
+      "image": "tiramisu.jpg"
+    },
+    {
+      "name": "Pistachio Baklava",
+      "price": 4.00,
+      "image": "baklava.jpg"
+    },
+    {
+      "name": "Lemon Meringue Pie",
+      "price": 5.00,
+      "image": "meringue.jpg"
+    },
+    {
+      "name": "Red Velvet Cake",
+      "price": 4.50,
+      "image": "red-velvet.jpg"
+    },
+    {
+      "name": "Salted Caramel Brownie",
+      "price": 5.50,
+      "image": "brownie.jpg"
+    },
+    {
+      "name": "Vanilla Panna Cotta",
+      "price": 6.50,
+      "image": "panna-cotta.jpg"
+    }
+  ]
+  

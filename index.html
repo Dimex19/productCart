@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <main>
+        <div class="mainContainer">
+        <h1>Deserts</h1>
+            <div class="productCards">
+                <!-- <div id="card1">
+                    <img src="./images/image-waffle-desktop.jpg" alt="">
+                    <div id="addToCart" onclick="addToCart()">
+                        <img src="./images/icon-add-to-cart.svg" alt="">
+                        <p>Add to Cart</p>
+                    </div>
+                    <p>Waffle</p>
+                    <p>Waffle with berries</p>
+                    <p>$6.50</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="cart" data-name="${item.name}">
+            <h2>Your Cart (<span>0</span>)</h2>
+            <div id="emptyCart">
+                <img src="./assets/images/illustration-empty-cart.svg" alt="" id="emptyCartImg">
+            <p id="emptyText">Your added items will appear here</p>
+            </div>
+
+            <div class="items" item-data="${item.name}">
+                <div id="item">
+                    <div id="itemDetails">
+                        <p>Waffle with berries</p>
+                        <div id="priceDetails">
+                            <p id="quantity"><span>1</span>x</p>
+                            <p id="costPrice">@<span>$</span><span id="price">6.50</span></p>
+                            <p id="totalPrice">$<span>6.50</span></p>
+                        </div>
+                    </div>
+                    <img src="./assets/images/icon-remove-item.svg" alt="" id="removeItem">
+                </div>
+                <hr>
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
